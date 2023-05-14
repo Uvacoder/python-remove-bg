@@ -3,12 +3,12 @@ import rembg
 import numpy as np
 from PIL import Image
 
-directory = "./output-2"
+directory = "./output"
 if not os.path.exists(directory):
     os.mkdir(directory)
 
 # Set the path to the directory containing the images
-input_directory = "dinosaur"
+input_directory = "input"
 
 # Set the path to the directory to save the output images
 output_directory = directory
